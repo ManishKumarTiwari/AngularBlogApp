@@ -1,0 +1,38 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">BlogApp</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><button *ngIf="loggedin" (click)="gotologin()"><h4>Login</h4></button></li>
+      <li><button *ngIf="register" (click)="gotoregister()"><h4>Register</h4></button></li>
+      <li><button *ngIf="add" (click)="gotoadd()"><h4>AddBlogs</h4></button></li>
+      <li><button *ngIf="logout" (click)="exit()"><h4>Log Out</h4></button></li>
+
+      <!--<li *ngIf="loggedin"><a href="/login"> Login</a> </li>-->
+      <!--<li *ngIf="register"><a href="/register">register</a></li>-->
+      <!--<li *ngIf="add"><a href="/addblog">AddBlog</a></li>-->
+
+
+    </ul>
+    <div >
+      <p class="wel" *ngIf="username">Welcome {{username}}</p>
+    </div>
+
+  </div>
+
+</nav>
+
+
+<div class="container">
+
+  <div *ngFor="let blog of allblog">
+    <div>
+      <h3>{{blog.title}}</h3>
+
+      <p>{{blog.desc}}</p>
+      <hr>
+    </div>
+  </div>
+</div>
+

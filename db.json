@@ -1,0 +1,104 @@
+{
+  "blogs": [
+    {
+      "id": 0,
+      "title": "Mango",
+      "category": "Food",
+      "desc": "Its about fruit"
+    },
+    {
+      "id": 1,
+      "title": "Apple",
+      "category": "Food",
+      "desc": "It is also a fruit"
+    },
+    {
+      "title": "manish",
+      "categort": "human",
+      "desc": "he is a human being",
+      "id": 2
+    },
+    {
+      "title": "Abhi",
+      "categort": "male",
+      "desc": "i am male",
+      "id": 3
+    },
+    {
+      "title": "lotus",
+      "categort": "flower",
+      "desc": "it is a flower",
+      "id": 4
+    },
+    {
+      "title": "tiger",
+      "categort": "animal",
+      "desc": "it is a animal",
+      "id": 5
+    },
+    {
+      "title": "aman",
+      "categort": "boy",
+      "desc": "hi i am aman",
+      "id": 6
+    }
+
+  ],
+  "users": [
+    {
+      "id": 0,
+      "name": "Manish",
+      "pass": "manish"
+    },
+    {
+      "id": 1,
+      "name": "Kumar",
+      "pass": "manish"
+    },
+    {
+      "name": "manish",
+      "pass": "pass",
+      "id": 2
+    },
+    {
+      "name": "abhijeet",
+      "pass": "abhi",
+      "id": 3
+    },
+    {
+      "name": "kawale",
+      "pass": "kaw",
+      "id": 4
+    },
+    {
+      "name": "aman",
+      "pass": "aman",
+      "id": 5
+    },
+    {
+      "name": "ram",
+      "pass": "ram",
+      "id": 6
+    },
+    {
+      "name": "shayam",
+      "pass": "sha",
+      "id": 7
+    },
+    {
+      "name": "abhi",
+      "pass": "abhi",
+      "id": 8
+    },
+    {
+      "name": "amama",
+      "pass": "amam",
+      "id": 9
+    },
+    {
+      "name": "aman1",
+      "pass": "aman",
+      "id": 10
+    }
+  ]
+}
