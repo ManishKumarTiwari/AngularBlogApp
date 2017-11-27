@@ -1,3 +1,7 @@
+# Links
+Server hosted on now (url:https://json-server-heroku-obkkumagaj.now.sh)
+App hosted on bitballon(url:http://manishkumar-3146475.bitballoon.com)
+
 # MyBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.2.
